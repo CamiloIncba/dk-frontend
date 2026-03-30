@@ -22,3 +22,9 @@ nav a:hover, nav a.active { background: #D4A843; color: #111; }
 @media (max-width: 480px) { .thumb-grid { grid-template-columns: 1fr; } }
 .version-row { margin-top: .75rem; }
 .version-row h3 { font-size: .8rem; color: #666; text-transform: uppercase; letter-spacing: .1em; margin-bottom: .5rem; }
+.description { margin-bottom: 1.25rem; line-height: 1.6; }
+.description .filosofia { color: #D4A843; font-style: italic; margin-bottom: .75rem; font-size: .95rem; }
+.desc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem 1.5rem; margin-top: .5rem; }
+.desc-item h4 { font-size: .75rem; text-transform: uppercase; letter-spacing: .1em; color: #D4A843; margin-bottom: .25rem; }
+.desc-item p { font-size: .8rem; color: #aaa; line-height: 1.5; }
+@media (max-width: 768px) { .desc-grid { grid-template-columns: 1fr; } }
