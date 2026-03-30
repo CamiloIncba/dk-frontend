@@ -53,7 +53,61 @@ Sello/badge circular monocromático (blanco y negro) con:
 
 ## PARTE 2: ANÁLISIS DE REFERENCIAS (10 marcas estudiadas)
 
-Se analizaron 10 marcas de comida para extraer patrones de diseño:
+Se analizaron 10 marcas de comida para extraer patrones de diseño. Las imágenes de referencia están en `branding/_references/`:
+
+### Logo actual de Stone Fungus
+![Logo actual](branding/_references/00-logo-actual.jpg)
+- Sello circular, stipple, personaje hongo-piedra, monocromático B&W
+
+### Referencia 1 — Pom Pam Cake / Pom Donut
+![Pom Pam Cake](branding/_references/01-pom-pam-cake.jpeg)
+- **Estilo:** Pop maximalista, juvenil. Azul eléctrico + amarillo saturado
+- **Key insight:** Sans-serif ultra bold ALL-CAPS que ocupa la caja entera. La tipografía ES el packaging. Mascota kawaii en la "O"
+
+### Referencia 2 — Italy in Bowl (Gourmet Pasta)
+![Italy in Bowl](branding/_references/02-italy-in-bowl.jpeg)
+- **Estilo:** Neo-italiano artesanal. Verde bandera + rojo + crema (tricolor reinterpretado)
+- **Key insight:** Lettering custom con distorsión orgánica. Las letras se aprietan como masa fresca. Sello rojo como cierre artesanal
+
+### Referencia 3 — Jarapa Gastroburger
+![Jarapa Gastroburger](branding/_references/03-jarapa-gastroburger.jpeg)
+- **Estilo:** Neo-retro cartoon, street food elevado. Naranja + azul/violeta + blanco
+- **Key insight:** Mascota cartoon 40s/50s (hamburguesa con piernas). Patrón "JR" repetido como textura. Copy: "Para el chiguito más exigente"
+
+### Referencia 4 — Pizzeta
+![Pizzeta](branding/_references/04-pizzeta.jpeg)
+- **Estilo:** Minimalismo bold europeo. Azul royal monocromático + blanco (solo 2 colores)
+- **Key insight:** Restricción cromática extrema = identidad inconfundible. Gestos de manos en outline blanco (1x=dedo, 5x=mano abierta). Grid modular perfecto
+
+### Referencia 5 — The Mean Tomato
+![The Mean Tomato](branding/_references/05-mean-tomato.jpeg)
+- **Estilo:** Cartoon punk, neo-pop. Rojo + verde oscuro + blanco (colores del tomate)
+- **Key insight:** Cada caja es un póster diferente pero el sistema de color + mascota las unifica. Mascota con actitud ("The Kickass Tomato"). Variedad = coleccionabilidad
+
+### Referencia 6 — Jon & Vinny's (by Verdy)
+![Jon & Vinny's](branding/_references/06-jon-vinnys.jpeg)
+- **Estilo:** Streetwear meets pizza. Verde + blanco + negro. Collab con artista japonés
+- **Key insight:** "PIZZA PIZZA" repetido en laterales = branding al apilar. Personaje sticker de Verdy. Crossover food × cultura urbana
+
+### Referencia 7 — Izzi Pizzas (escena de mesa)
+![Izzi Pizzas - Scene](branding/_references/07-izzi-pizzas-scene.jpeg)
+- **Estilo:** Street pizza artesanal brasileña. Rojo saturado + blanco + verde
+- **Key insight:** Pizza rectangular en caja alargada (formato = branding). Fotografía lifestyle real, no perfecta. Copy en la caja: "PUUUUUUUUURO SABOR"
+
+### Referencia 8 — Izzi Pizzas (caja close-up)
+![Izzi Pizzas - Box](branding/_references/08-izzi-pizzas-box.jpeg)
+- **Estilo:** Rojo total envolvente. Logo "IZZI" en bloque 2×2 (IZ/ZI) tipo sello/stamp
+- **Key insight:** Copy conversacional directo: "Olá, cheguei preparada para matar a sua fome!", "Este local é livre de julgamentos, pode comer com a mão". El copy humaniza la marca
+
+### Referencia 9 — Izzi Pizzas (lifestyle)
+![Izzi Pizzas - Lifestyle](branding/_references/09-izzi-pizzas-lifestyle.jpeg)
+- **Estilo:** Fotografía real, oscura, personas mordiendo la pizza del empaque
+- **Key insight:** Copy extendido en el cartón: "Pizza artesanal que é puuuuuuuuuuro sabor". La caja como medio de comunicación directa con el consumidor
+
+### Referencia 10 — Papa John's
+![Papa John's](branding/_references/10-papa-johns.jpeg)
+- **Estilo:** Corporativo mainstream. Verde + rojo + blanco. Cadena internacional
+- **Key insight:** CONTRA-EJEMPLO. Branding funcional pero genérico. "Sello de Calidad" como claim. Stone Fungus NO debe parecerse a esto
 
 ### Patrones clave identificados
 1. **Tipografía como protagonista** (Pizzeta, Pom Pam Cake): La palabra ES el logo
