@@ -1,0 +1,24 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #111; color: #eee; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
+header { padding: 2rem 1.5rem 1rem; text-align: center; }
+header h1 { font-size: 2.25rem; letter-spacing: .05em; }
+header p { color: #888; margin-top: .25rem; }
+nav { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem; padding: 1rem 1.5rem; }
+nav a { padding: .375rem .75rem; border-radius: 4px; background: #222; color: #ccc; text-decoration: none; font-size: .8rem; transition: background .2s; }
+nav a:hover, nav a.active { background: #D4A843; color: #111; }
+.approach { padding: 2rem 1.5rem; max-width: 1100px; margin: 0 auto; border-top: 1px solid #222; }
+.approach h2 { font-size: 1.5rem; margin-bottom: .25rem; }
+.approach .meta { color: #888; font-size: .875rem; margin-bottom: .75rem; }
+.palette-row { display: flex; gap: .5rem; margin-bottom: 1rem; }
+.palette-row span { width: 28px; height: 28px; border-radius: 4px; border: 1px solid #333; display: inline-block; }
+.thumb-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+.thumb-grid a { display: block; border-radius: 6px; overflow: hidden; background: #1a1a1a; transition: transform .2s; }
+.thumb-grid a:hover { transform: scale(1.03); }
+.thumb-grid img { width: 100%; display: block; }
+.thumb-grid .label { text-align: center; padding: .5rem; font-size: .75rem; color: #999; text-transform: uppercase; letter-spacing: .08em; }
+.view-link { display: inline-block; margin-top: .75rem; color: #D4A843; text-decoration: none; font-size: .85rem; }
+.view-link:hover { text-decoration: underline; }
+@media (max-width: 768px) { .thumb-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 480px) { .thumb-grid { grid-template-columns: 1fr; } }
+.version-row { margin-top: .75rem; }
+.version-row h3 { font-size: .8rem; color: #666; text-transform: uppercase; letter-spacing: .1em; margin-bottom: .5rem; }
