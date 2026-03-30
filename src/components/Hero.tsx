@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { ChevronDown } from 'lucide-react'
 import { useTheme } from '@/context/ThemeContext'
+import { appRootWithHash } from '@/config/publicUrl'
 
 function HeroLocal() {
   return (
@@ -42,21 +43,23 @@ function HeroLocal() {
         />
       </motion.div>
 
-      <motion.div
+      <motion.a
+        href={appRootWithHash('story')}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 1 }}
-        className="absolute bottom-12 z-10"
+        className="absolute bottom-12 z-10 text-muted-foreground"
+        aria-label="Ver historia"
       >
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 2, ease: 'easeInOut' }}
-          className="flex flex-col items-center gap-2 text-muted-foreground"
+          className="flex flex-col items-center gap-2"
         >
           <span className="text-[10px] tracking-[0.25em] uppercase font-sans">Descubrir</span>
           <ChevronDown className="w-4 h-4" />
         </motion.div>
-      </motion.div>
+      </motion.a>
     </section>
   )
 }
@@ -68,7 +71,7 @@ function HeroLovable() {
 
       <div className="relative z-10 max-w-4xl mx-auto">
         <p className="text-xs md:text-sm tracking-[0.4em] text-muted-foreground uppercase mb-8 animate-fade-up stagger-1">
-          Temuco, Chile
+          Santiago, Chile
         </p>
 
         <h1 className="font-serif text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-light tracking-wide text-foreground mb-6 animate-fade-up stagger-2">
@@ -83,7 +86,7 @@ function HeroLovable() {
       </div>
 
       <a
-        href="#story"
+        href={appRootWithHash('story')}
         className="absolute bottom-12 text-muted-foreground animate-scroll-hint"
         aria-label="Scroll para descubrir"
       >

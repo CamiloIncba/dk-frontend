@@ -1,26 +1,33 @@
-import { CartProvider } from '@/context/CartContext'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { ThemeProvider } from '@/context/ThemeContext'
-import Navbar from '@/components/Navbar'
-import Hero from '@/components/Hero'
-import OurStory from '@/components/OurStory'
-import PizzaGallery from '@/components/PizzaGallery'
-import Footer from '@/components/Footer'
-import ThemeToggle from '@/components/ThemeToggle'
+import { CartProvider } from '@/cart/CartProvider'
+import MainLayout from '@/layout/MainLayout'
+import HomePage from '@/pages/HomePage'
+import ProductPage from '@/pages/ProductPage'
+import CheckoutPage from '@/pages/CheckoutPage'
+import TrackPage from '@/pages/TrackPage'
+
+/** Debe coincidir con `base` en `vite.config` (sin barra final). */
+const ROUTER_BASENAME =
+  import.meta.env.BASE_URL.replace(/\/$/, '') || '/'
 
 export default function App() {
   return (
     <ThemeProvider>
       <CartProvider>
-        <div className="min-h-screen bg-background">
-          <Navbar />
-          <main>
-            <Hero />
-            <OurStory />
-            <PizzaGallery />
-          </main>
-          <Footer />
-          <ThemeToggle />
-        </div>
+        <BrowserRouter
+          basename={ROUTER_BASENAME === '/' ? undefined : ROUTER_BASENAME}
+        >
+          <Routes>
+            <Route element={<MainLayout />}>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/producto/:id" element={<ProductPage />} />
+              <Route path="/checkout" element={<CheckoutPage />} />
+              <Route path="/seguimiento" element={<TrackPage />} />
+              <Route path="/seguimiento/:id" element={<TrackPage />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
       </CartProvider>
     </ThemeProvider>
   )

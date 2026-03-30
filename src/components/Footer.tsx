@@ -15,7 +15,7 @@ function FooterLocal() {
           <h3 className="font-serif text-2xl tracking-wider text-foreground">Stone Fungus</h3>
           <Separator className="w-8 bg-primary/30" />
           <div className="space-y-2">
-            <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground font-sans">Temuco, Chile</p>
+            <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground font-sans">Santiago, Chile</p>
             <p className="text-xs text-muted-foreground/50 font-light italic">Hongos que varían con las estaciones</p>
           </div>
           <a href="https://instagram.com/stonefungus" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors duration-300" aria-label="Instagram">
@@ -37,7 +37,7 @@ function FooterLovable() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="text-center md:text-left">
             <h3 className="font-serif text-2xl font-light tracking-widest text-foreground uppercase mb-2">Stone Fungus</h3>
-            <p className="text-xs text-muted-foreground tracking-wider">Temuco, Chile</p>
+            <p className="text-xs text-muted-foreground tracking-wider">Santiago, Chile</p>
           </div>
           <div className="flex items-center gap-6">
             <a href="https://instagram.com/stonefungus" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="Instagram">
