@@ -7,19 +7,81 @@ nav { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem; paddi
 nav a { padding: .375rem .75rem; border-radius: 4px; background: #222; color: #ccc; text-decoration: none; font-size: .8rem; transition: background .2s; }
 nav a:hover, nav a.active { background: #D4A843; color: #111; }
 .approach { padding: 2rem 1.5rem; max-width: 1100px; margin: 0 auto; border-top: 1px solid #222; scroll-margin-top: 1.25rem; }
-.approach h2 { font-size: 1.5rem; margin-bottom: .25rem; }
 .approach .meta { color: #888; font-size: .875rem; margin-bottom: .75rem; }
 .palette-row { display: flex; gap: .5rem; margin-bottom: 1rem; }
 .palette-row span { width: 28px; height: 28px; border-radius: 4px; border: 1px solid #333; display: inline-block; }
-.thumb-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
-.thumb-grid a { display: block; border-radius: 6px; overflow: hidden; background: #1a1a1a; transition: transform .2s; }
-.thumb-grid a:hover { transform: scale(1.03); }
-.thumb-grid img { width: 100%; display: block; }
+.thumb-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+.thumb-reset-btn {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background: #222;
+  color: #ccc;
+  cursor: pointer;
+  font-size: 1.15rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color .2s, color .2s, background .2s;
+}
+.thumb-reset-btn:hover { border-color: #D4A843; color: #D4A843; background: #2a2a2a; }
+.thumb-reset-btn:focus-visible { outline: 2px solid #D4A843; outline-offset: 2px; }
+.thumb-reset-btn--heading {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  font-size: 1rem;
+  margin-left: calc(.15rem + 20px);
+  align-self: center;
+}
+.thumb-wrap {
+  position: relative;
+  border-radius: 6px;
+  width: 100%;
+  min-width: 0;
+  justify-self: stretch;
+}
+.thumb-wrap.is-hidden { display: none; }
+.thumb-wrap > a { display: block; min-width: 0; border-radius: 6px; overflow: hidden; background: #1a1a1a; transition: transform .2s; }
+.thumb-wrap > a:hover { transform: scale(1.03); }
+.thumb-hide-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  z-index: 2;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: 6px;
+  background: rgba(0,0,0,.75);
+  color: #eee;
+  cursor: pointer;
+  font-size: 1.1rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background .2s, color .2s, border-color .2s;
+}
+.thumb-hide-btn:hover { background: #8b2942; border-color: rgba(255,255,255,.35); color: #fff; }
+.thumb-hide-btn:focus-visible { outline: 2px solid #D4A843; outline-offset: 2px; }
+.thumb-grid img { width: 100%; height: auto; display: block; }
 .thumb-grid .label { text-align: center; padding: .5rem; font-size: .75rem; color: #999; text-transform: uppercase; letter-spacing: .08em; }
-/* Enfoque 02 — Carta: una sola imagen, evitar que ocupe todo el ancho de columna */
+/* Enfoque 02 — Carta: grilla más estrecha con una sola celda útil */
 #a02 .thumb-grid { max-width: 420px; }
-@media (max-width: 768px) { .thumb-grid { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); } }
-@media (max-width: 480px) { .thumb-grid { grid-template-columns: 1fr; } }
+@media (max-width: 1024px) {
+  .thumb-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  .thumb-grid { grid-template-columns: 1fr; }
+}
 .version-row { margin-top: .75rem; }
 .version-row h3 { font-size: .8rem; color: #666; text-transform: uppercase; letter-spacing: .1em; margin-bottom: .5rem; }
 .description { margin-bottom: 1.25rem; line-height: 1.6; }
@@ -30,7 +92,15 @@ nav a:hover, nav a.active { background: #D4A843; color: #111; }
 @media (max-width: 768px) { .desc-grid { grid-template-columns: 1fr; } }
 
 /* Collapse toggle */
-.approach h2 { display: inline; }
+.approach h2 {
+  font-size: 1.5rem;
+  margin-bottom: .25rem;
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0 .25rem;
+  max-width: 100%;
+}
 .approach-heading-link {
   color: inherit;
   text-decoration: none;

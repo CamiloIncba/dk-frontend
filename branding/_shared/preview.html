@@ -449,6 +449,100 @@ function toggleGroup(titleEl) {
   chevron.classList.toggle('down');
 }
 
+const HIDDEN_STORAGE_KEY = 'sf-branding-hidden-v2';
+
+function loadHiddenMap() {
+  try {
+    return JSON.parse(localStorage.getItem(HIDDEN_STORAGE_KEY) || '{}');
+  } catch {
+    return {};
+  }
+}
+
+function saveHiddenMap(map) {
+  localStorage.setItem(HIDDEN_STORAGE_KEY, JSON.stringify(map));
+}
+
+function syncSectionThumbs(sectionId) {
+  const section = document.getElementById(sectionId);
+  if (!section) return;
+  const hiddenList = loadHiddenMap()[sectionId] || [];
+  const hidden = new Set(hiddenList);
+  section.querySelectorAll('.thumb-wrap').forEach((wrap) => {
+    const a = wrap.querySelector('a');
+    if (!a) return;
+    const href = a.getAttribute('href');
+    if (!href) return;
+    wrap.classList.toggle('is-hidden', hidden.has(href));
+  });
+}
+
+function hideThumb(sectionId, href) {
+  const map = loadHiddenMap();
+  if (!map[sectionId]) map[sectionId] = [];
+  if (!map[sectionId].includes(href)) map[sectionId].push(href);
+  saveHiddenMap(map);
+  syncSectionThumbs(sectionId);
+}
+
+function resetSectionThumbs(sectionId) {
+  const map = loadHiddenMap();
+  delete map[sectionId];
+  saveHiddenMap(map);
+  syncSectionThumbs(sectionId);
+}
+
+function initThumbControls() {
+  document.querySelectorAll('.approach').forEach((section) => {
+    const grid = section.querySelector('.thumb-grid');
+    if (!grid) return;
+    const sectionId = section.id;
+    if (!sectionId) return;
+
+    const heading = section.querySelector('h2');
+    const titleLink = heading && heading.querySelector('.approach-heading-link');
+    if (heading && titleLink) {
+      const resetBtn = document.createElement('button');
+      resetBtn.type = 'button';
+      resetBtn.className = 'thumb-reset-btn thumb-reset-btn--heading';
+      resetBtn.title = 'Mostrar todas las imágenes de este enfoque';
+      resetBtn.setAttribute('aria-label', resetBtn.title);
+      resetBtn.textContent = '\u21bb';
+      resetBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        resetSectionThumbs(sectionId);
+      });
+      heading.appendChild(resetBtn);
+    }
+
+    const links = [...grid.querySelectorAll('a')];
+    links.forEach((anchor) => {
+      const wrap = document.createElement('div');
+      wrap.className = 'thumb-wrap';
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'thumb-hide-btn';
+      btn.title = 'Ocultar imagen';
+      btn.setAttribute('aria-label', 'Ocultar imagen');
+      btn.textContent = '\u00d7';
+      const href = anchor.getAttribute('href');
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        hideThumb(sectionId, href);
+      });
+      wrap.appendChild(btn);
+      anchor.replaceWith(wrap);
+      wrap.appendChild(anchor);
+    });
+
+    syncSectionThumbs(sectionId);
+  });
+}
+
+initThumbControls();
+
 const lightbox = document.getElementById('lightbox');
 const lightboxImage = document.getElementById('lightbox-image');
 const lightboxTitle = document.getElementById('lightbox-title');
@@ -494,13 +588,13 @@ function moveLightbox(step) {
   updateLightbox();
 }
 
-document.querySelectorAll('.thumb-grid a').forEach((link) => {
+document.querySelectorAll('.thumb-wrap:not(.is-hidden) > a').forEach((link) => {
   link.addEventListener('click', (event) => {
     event.preventDefault();
     const approach = link.closest('.approach');
     const heading = approach.querySelector('.approach-heading-link');
     const sectionTitle = heading ? heading.textContent.replace(/\s+/g, ' ').trim() : '';
-    const links = Array.from(approach.querySelectorAll('.thumb-grid a'));
+    const links = Array.from(approach.querySelectorAll('.thumb-wrap:not(.is-hidden) > a'));
     const items = links.map((item) => ({
       href: item.getAttribute('href'),
       alt: item.querySelector('img')?.getAttribute('alt') || '',
