@@ -1,7 +1,7 @@
-# BRANDING-PROMPT: Stone Fungus — 10 Enfoques de Identidad Visual
+# BRANDING-PROMPT: Stone Fungus — 4 Enfoques de Identidad Visual
 
-> Este documento es una instrucción completa para generar assets de branding como archivos SVG y HTML.
-> Debe ser leído como contexto por un agente de IA (Cursor + Claude) para producir todos los archivos.
+> Este documento es una instrucción completa para generar assets de branding como archivos PNG y HTML.
+> Debe ser leído como contexto por un agente de IA para producir todos los archivos.
 
 ---
 
@@ -25,8 +25,6 @@ Stone Fungus es una pizzería gourmet ubicada en **Temuco, Chile**, especializad
 
 ### Taglines usados
 - "Masa madre, piedra & hongos de autor"
-- "Del bosque al horno de piedra"
-- "Temuco, Chile"
 
 ### Logo actual
 Sello/badge circular monocromático (blanco y negro) con:
@@ -44,86 +42,104 @@ Sello/badge circular monocromático (blanco y negro) con:
 
 ### Objetivos del rediseño
 1. Simplificar para versatilidad (imprenta, cajas, web, favicon, stickers)
-2. Mantener la esencia (hongo + piedra + gourmet)
+2. Mantener la esencia (hongo + gourmet)
 3. Crear un sistema visual completo (no solo un logo)
 4. Posicionar como marca premium pero accesible
 5. Los colores actuales pueden mantenerse o cambiarse si está justificado
+6. El estilo visual que se busca es "pictóric pop art" ya que está muy bien recibido en otras marcas de europa y asia.
 
 ---
 
-## PARTE 2: ANÁLISIS DE REFERENCIAS (10 marcas estudiadas)
+## PARTE 2: ANÁLISIS DE REFERENCIAS — Estilo "Pictóric Pop Art" (9 referencias)
 
-Se analizaron 10 marcas de comida para extraer patrones de diseño. Las imágenes de referencia están en `branding/_references/`:
+Se analizaron 9 referencias de branding e ilustración en estilo **pictóric pop art** — formas orgánicas simplificadas, colores planos, trazo expresivo, estética entre lo artístico y lo comercial. Las imágenes están en `branding/_references/`:
 
-### Logo actual de Stone Fungus
-![Logo actual](branding/_references/00-logo-actual.jpg)
-- Sello circular, stipple, personaje hongo-piedra, monocromático B&W
+### Referencia 1 — Silueta orgánica de hongos (linocut)
+![Silueta orgánica](branding/_references/1.jpeg)
+- **Estilo:** Linocut / block print monocromático. Negro sobre crema. Formas orgánicas de hongos (chanterelle/ostra) con líneas blancas internas que sugieren laminillas/gill
+- **Paleta:** Negro `#1A1A1A` + crema `#F5F0E8` (2 colores)
+- **Key insight:** La forma orgánica ES el ícono — sin texto, sin contenedor, sin adornos. La textura granulada del trazo da calidez artesanal. Las líneas negativas (blancas) dentro de la silueta crean profundidad con mínimos recursos. **Directamente aplicable a Stone Fungus: un hongo como forma pura, reconocible como ícono autónomo**
 
-### Referencia 1 — Pom Pam Cake / Pom Donut
-![Pom Pam Cake](branding/_references/01-pom-pam-cake.jpeg)
-- **Estilo:** Pop maximalista, juvenil. Azul eléctrico + amarillo saturado
-- **Key insight:** Sans-serif ultra bold ALL-CAPS que ocupa la caja entera. La tipografía ES el packaging. Mascota kawaii en la "O"
+### Referencia 2 — Benzão Café (branding brasileño)
+![Benzão](branding/_references/2.jpeg)
+- **Estilo:** Pictóric pop art aplicado a branding gastronómico. Café brasileño en Marsella. Tres piezas (tarjetas) sobre granos de café
+- **Paleta:** Rojo cálido `#C0392B` + crema `#F5E6C8` + naranja `#E8973B` + verde oscuro `#2D5A3D`
+- **Elementos clave:** Tipografía custom redondeada ("benzão" en lowercase bold). Forma orgánica abstracta en rojo sobre crema (reverso) — estilo Matisse recortado. Loyalty card con íconos pictóricos (trébol, taza, grano). Los íconos son formas planas, sin outline
+- **Key insight:** La forma orgánica abstracta funciona como identidad visual sin ser literal. El sistema de color cálido (rojo + crema + naranja) transmite calidez latina. **Demuestra que una forma orgánica abstracta (como un hongo estilizado) puede ser el corazón visual de una marca gastronómica**
 
-### Referencia 2 — Italy in Bowl (Gourmet Pasta)
-![Italy in Bowl](branding/_references/02-italy-in-bowl.jpeg)
-- **Estilo:** Neo-italiano artesanal. Verde bandera + rojo + crema (tricolor reinterpretado)
-- **Key insight:** Lettering custom con distorsión orgánica. Las letras se aprietan como masa fresca. Sello rojo como cierre artesanal
+### Referencia 3 — 城市菜园 Urban Garden (packaging chino, MUZILI Design)
+![Urban Garden](branding/_references/3.jpeg)
+- **Estilo:** Pictóric pop art editorial. Packaging de verduras con ilustraciones hand-painted sobredimensionadas. Cada caja = un vegetal gigante (tomate, calabaza, zapallo, pimiento)
+- **Paleta:** Fondo crema/blanco + colores naturales saturados (rojo tomate, verde calabaza, naranja calabaza, amarillo pimiento)
+- **Elementos clave:** Ilustración loose/suelta que ocupa 70% de la caja. Trazo visible del pincel (no vector limpio). Tipografía bold en caracteres chinos + "Fresh" en inglés. Composición asimétrica, el vegetal se sale del marco
+- **Key insight:** El ingrediente protagonista pintado a gran escala = identidad inmediata. La imperfección del trazo pictórico da autenticidad artesanal. **Para Stone Fungus: cada pizza podría tener su hongo pintado en estilo pictóric como protagonista del packaging — sistema de variaciones donde el hongo cambia pero el estilo unifica**
 
-### Referencia 3 — Jarapa Gastroburger
-![Jarapa Gastroburger](branding/_references/03-jarapa-gastroburger.jpeg)
-- **Estilo:** Neo-retro cartoon, street food elevado. Naranja + azul/violeta + blanco
-- **Key insight:** Mascota cartoon 40s/50s (hamburguesa con piernas). Patrón "JR" repetido como textura. Copy: "Para el chiguito más exigente"
+### Referencia 4 — Garden Pizza (menú pictóric)
+![Garden Pizza](branding/_references/4.jpeg)
+- **Estilo:** Pictóric minimal floral. Menú de pizzería sobre papel crema con forma botánica (margarita/daisy) amarilla grande y centrada
+- **Paleta:** Crema `#F5F0E8` + amarillo `#FFD43B` + negro `#111111` (3 colores)
+- **Elementos clave:** Tipografía lowercase moderna sans-serif ("garden pizza", "fresh menu"). Mucho espacio blanco. La forma floral es plana, sin degradados, sin outline — un blob orgánico de color. Textos auxiliares mínimos ("loving plants", "collectivo pizza")
+- **Key insight:** Demuestra que el estilo pictóric pop art funciona perfectamente para pizzerías. La restricción a 3 colores + 1 forma orgánica grande = elegancia silenciosa. **El enfoque "menos es más" donde una sola forma de color plano sobre fondo neutro crea impacto premium. Aplicable directamente: un hongo amarillo/dorado como forma central**
 
-### Referencia 4 — Pizzeta
-![Pizzeta](branding/_references/04-pizzeta.jpeg)
-- **Estilo:** Minimalismo bold europeo. Azul royal monocromático + blanco (solo 2 colores)
-- **Key insight:** Restricción cromática extrema = identidad inconfundible. Gestos de manos en outline blanco (1x=dedo, 5x=mano abierta). Grid modular perfecto
+### Referencia 5 — Uvas pictóricas (ilustración editorial)
+![Uvas pictóricas](branding/_references/5.jpeg)
+- **Estilo:** Ilustración editorial pictóric. Racimo de uvas verdes construido con círculos superpuestos de un solo color + tallo/hoja en verde oscuro. Página de libro/revista
+- **Paleta:** Verde medio `#5DB075` + verde oscuro `#1A3D2B` + crema fondo
+- **Elementos clave:** Cada uva es un círculo imperfecto (no geométrico perfecto). La superposición con transparencia/opacidad variable da sensación de volumen. El tallo es un trazo caligráfico suelto. Textura visible de tinta/impresión
+- **Key insight:** Formas geométricas simples (círculos) + imperfección manual = orgánico y sofisticado. **Para Stone Fungus: un hongo puede construirse con semicírculo (cap) + rectángulo (tallo) en esta misma lógica de formas básicas con textura pictórica**
 
-### Referencia 5 — The Mean Tomato
-![The Mean Tomato](branding/_references/05-mean-tomato.jpeg)
-- **Estilo:** Cartoon punk, neo-pop. Rojo + verde oscuro + blanco (colores del tomate)
-- **Key insight:** Cada caja es un póster diferente pero el sistema de color + mascota las unifica. Mascota con actitud ("The Kickass Tomato"). Variedad = coleccionabilidad
+### Referencia 6 — Póster "GREEN" de hongos (ilustración japonesa)
+![Póster GREEN hongos](branding/_references/6.jpeg)
+- **Estilo:** Pictóric pop art japonés con temática directa de hongos. Siluetas planas de hongos (shiitake/king oyster en lavanda y rosa) + racimo de enoki (crema/blanco) sobre fondo beige cálido
+- **Paleta:** Beige cálido `#B8A48A` + lavanda `#C8A5D0` + rosa pálido `#F0C8C8` + crema `#F5F0E0`
+- **Elementos clave:** Tipografía bold sans-serif "GREEN" en blanco. Los hongos son siluetas planas sin detail interno (no hay laminillas, no hay textura). Las formas son orgánicas, asimétricas, como recortadas a mano. El enoki se resuelve con tallos finos verticales que terminan en círculos pequeños
+- **Key insight:** **REFERENCIA MÁS DIRECTA para Stone Fungus.** Demuestra que los hongos en estilo pictóric pop art son visualmente poderosos. La paleta suave/warm no compite con las formas. Cada variedad de hongo tiene una silueta reconocible diferente. **El sistema de siluetas de hongos por variedad (enoki, shiitake, ostra, porcini) puede ser el core visual de Stone Fungus — cada pizza con su hongo en su color**
 
-### Referencia 6 — Jon & Vinny's (by Verdy)
-![Jon & Vinny's](branding/_references/06-jon-vinnys.jpeg)
-- **Estilo:** Streetwear meets pizza. Verde + blanco + negro. Collab con artista japonés
-- **Key insight:** "PIZZA PIZZA" repetido en laterales = branding al apilar. Personaje sticker de Verdy. Crossover food × cultura urbana
+### Referencia 7 — Serkerfeel (packaging con mascota)
+![Serkerfeel](branding/_references/7.jpeg)
+- **Estilo:** Pictóric pop art con mascota minimalista. Bolsa de papel blanca para marca de limones/cítricos. Personaje: limón amarillo con cara kawaii (ojos cerrados sonrientes) + brazos/piernas en trazo negro fino + hoja negra
+- **Paleta:** Blanco `#FFFFFF` + amarillo `#FFD43B` + negro `#111111` (3 colores)
+- **Elementos clave:** La mascota es una forma geométrica simple (círculo amarillo) + elementos de línea negra (extremidades, cara). La tipografía "SER KER FEEL" está apilada en 3 líneas, bold sans-serif, negra. Máxima simplicidad: 3 colores, 1 personaje, 1 tipografía
+- **Key insight:** Un ingrediente convertido en personaje con mínimos recursos (forma de color + cara + palitos). La expresión kawaii da personalidad sin complejidad. **Para Stone Fungus: el hongo como personaje puede lograrse con una forma orgánica de color + 2 puntos (ojos) + líneas simples para extremidades — pictóric + adorable**
 
-### Referencia 7 — Izzi Pizzas (escena de mesa)
-![Izzi Pizzas - Scene](branding/_references/07-izzi-pizzas-scene.jpeg)
-- **Estilo:** Street pizza artesanal brasileña. Rojo saturado + blanco + verde
-- **Key insight:** Pizza rectangular en caja alargada (formato = branding). Fotografía lifestyle real, no perfecta. Copy en la caja: "PUUUUUUUUURO SABOR"
+### Referencia 8 — Grogrow Healthy Food (sistema de marca completo)
+![Grogrow](branding/_references/8.jpeg)
+- **Estilo:** Pictóric pop art como sistema de identidad completo. Marca de comida saludable (rusa). Mascota: forma redondeada amarilla/verde con cara kawaii + brote/sprout en la cabeza
+- **Paleta:** Verde lima `#8BC34A` + amarillo suave `#F5E6A0` + crema `#F5F0E0` + gris claro `#E0E0E0`
+- **Elementos clave:** Logotipo "grogrow" en lowercase sans-serif moderna. La mascota aparece en múltiples escalas: gigante en pósters, pequeña como ícono en etiquetas. Packaging con patrón de brotes/sprouts repetidos. Sistema cromático verde-amarillo-crema consistente en cajas, tarjetas, etiquetas de producto (brócoli)
+- **Key insight:** **Demuestra el sistema completo** — cómo una mascota pictóric escala a todas las aplicaciones: logo, packaging, tarjetas, etiquetas, patrón. La consistencia cromática es clave: todo vive en el mismo rango tonal verde-amarillo-crema. **Para Stone Fungus: la mascota-hongo debe funcionar igual — gigante en cajas, pequeña como favicon, como patrón repetido, como sticker**
 
-### Referencia 8 — Izzi Pizzas (caja close-up)
-![Izzi Pizzas - Box](branding/_references/08-izzi-pizzas-box.jpeg)
-- **Estilo:** Rojo total envolvente. Logo "IZZI" en bloque 2×2 (IZ/ZI) tipo sello/stamp
-- **Key insight:** Copy conversacional directo: "Olá, cheguei preparada para matar a sua fome!", "Este local é livre de julgamentos, pode comer com a mão". El copy humaniza la marca
+### Referencia 9 — Мои Грибы / My Mushrooms (packaging de hongos)
+![My Mushrooms](branding/_references/9.jpeg)
+- **Estilo:** Branding comercial de hongos frescos (marca rusa). Packaging para bandejas de champiñones, chanterelles y otras variedades. Silueta de hongo blanca como ícono central + etiquetas de color por variedad
+- **Paleta:** Blanco `#FFFFFF` + naranja `#E8973B` + verde `#6B9B4F` + kraft `#C4A77D` + beige `#F5E6D0`
+- **Elementos clave:** Ícono de hongo como silueta simple y limpia (blanca sobre color). Tipografía rusa bold con sizing expresivo (la palabra "Шампиньоны" / champiñones ocupa toda la etiqueta). Cada variedad tiene su color: beige = champiñón blanco, naranja = chanterelle, verde = champiñón premium. Kraft como material base
+- **Key insight:** **Referencia directa de producto mushroom.** El sistema color = variedad es potente y escalable. La silueta de hongo funciona como ícono universal de la marca. **Para Stone Fungus: confirma que el sistema silueta-de-hongo + color-por-variedad es viable comercialmente y reconocible al instante — adaptarlo al estilo pictóric (más suelto, más artístico) lo elevaría**
 
-### Referencia 9 — Izzi Pizzas (lifestyle)
-![Izzi Pizzas - Lifestyle](branding/_references/09-izzi-pizzas-lifestyle.jpeg)
-- **Estilo:** Fotografía real, oscura, personas mordiendo la pizza del empaque
-- **Key insight:** Copy extendido en el cartón: "Pizza artesanal que é puuuuuuuuuuro sabor". La caja como medio de comunicación directa con el consumidor
+### Patrones clave identificados (Pictóric Pop Art)
+1. **Forma orgánica como protagonista** (Ref 1, 4, 5, 6): Una silueta grande de color plano ES la identidad. Sin outline, sin degradados
+2. **Paleta limitada y cálida** (Ref 1, 2, 4, 7): Máximo 3-4 colores. Fondos crema/neutros. Los colores son cálidos y naturales, no neón
+3. **Imperfección intencional** (Ref 1, 3, 5): Bordes irregulares, textura de trazo visible, sensación hand-made. La imperfección = autenticidad
+4. **Ingrediente = ícono a gran escala** (Ref 3, 5, 6, 9): El ingrediente principal pintado/recortado como forma gigante que domina la composición
+5. **Mascota como forma simple + cara** (Ref 7, 8): Un blob de color + ojos + extremidades de línea = personaje con personalidad
+6. **Sistema por variedad** (Ref 3, 6, 9): Cada variante del producto tiene su forma/color propio pero el lenguaje visual las unifica
+7. **Tipografía lowercase moderna** (Ref 4, 7, 8): Sans-serif humanista, peso medium, lowercase — anti-grito, susurrada, premium-accesible
+8. **Mucho espacio vacío** (Ref 1, 4, 5): La forma respira. El fondo neutro amplifica el impacto de la forma de color
+9. **Escalabilidad del sistema** (Ref 8): La misma forma funciona como logo gigante, favicon, patrón, sticker — versatilidad total
 
-### Referencia 10 — Papa John's
-![Papa John's](branding/_references/10-papa-johns.jpeg)
-- **Estilo:** Corporativo mainstream. Verde + rojo + blanco. Cadena internacional
-- **Key insight:** CONTRA-EJEMPLO. Branding funcional pero genérico. "Sello de Calidad" como claim. Stone Fungus NO debe parecerse a esto
-
-### Patrones clave identificados
-1. **Tipografía como protagonista** (Pizzeta, Pom Pam Cake): La palabra ES el logo
-2. **Mascotas cartoon** (Jarapa, Mean Tomato, Jon & Vinny's): Personajes con actitud
-3. **Paleta monocromática/limitada** (Pizzeta 1 color, Pom Pam 2): Simplicidad = identidad
-4. **Copy conversacional en packaging** (Izzi, Jarapa): Humaniza la marca
-5. **Repetición tipográfica como patrón** (Jon & Vinny's "PIZZA PIZZA"): Branding al apilar
-6. **Cada caja es única pero del mismo sistema** (Mean Tomato): Coleccionabilidad
-7. **Formato de producto como diferenciador** (Izzi rectangular): Lo distinto se recuerda
-8. **Contraste de colores saturados** (Pom Pam azul+amarillo): Impacto visual inmediato
-9. **Logo tipo sello/stamp versátil** (Izzi cuadrado IZ/ZI): Funciona en cualquier escala
-10. **Hand-lettering y tipografía custom** (Italy in Bowl, Jon & Vinny's): Diferenciación tipográfica
+### Síntesis: Dirección visual para Stone Fungus
+Las 9 referencias convergen en un estilo claro: **siluetas orgánicas de hongos en colores planos sobre fondos neutros cálidos, con tipografía moderna lowercase y máxima simplicidad**. Esto se traduce en:
+- **Ícono central:** Silueta de hongo (como Ref 1 y 6) — orgánica, imperfecta, reconocible
+- **Sistema de variaciones:** Cada pizza tiene su hongo en su color (como Ref 3, 6, 9)
+- **Mascota opcional:** El hongo con cara kawaii (como Ref 7, 8) para packaging y redes
+- **Tipografía:** Lowercase, sans-serif moderna, que no compita con la forma pictórica
+- **Paleta:** Colores naturales cálidos del bosque/hongo — beige, dorado, verde musgo, crema, con acentos de color por variedad
 
 ---
 
-## PARTE 3: LOS 10 ENFOQUES
+## PARTE 3: LOS 4 ENFOQUES SELECCIONADOS
+
+> **Nota:** Se mantienen los 4 enfoques seleccionados en la curación anterior (Monolito Bold, Piedra & Tinta, Fungi Minimal, Alquimia). Las 9 referencias pictóric pop art analizadas en la PARTE 2 deben usarse como dirección visual para la generación de todos los assets — cada enfoque debe incorporar el lenguaje visual pictóric (formas orgánicas, colores planos, trazo expresivo, fondos neutros cálidos).
 
 Cada enfoque define 4 elementos a generar:
 - **Logo** (isotipo + logotipo)
@@ -169,77 +185,7 @@ Cada enfoque define 4 elementos a generar:
 
 ---
 
-### ENFOQUE 2: "Bosque Nocturno"
-**Filosofía:** Evocar el bosque lluvioso del sur de Chile. Colores de la tierra.
-
-**Paleta:**
-- Verde bosque: `#1B3A2D`
-- Crema: `#F5E6D0`
-- Tierra: `#8B6914`
-- Negro: `#1A1A1A`
-
-**Logo:**
-- Isotipo: silueta de hongo donde el tallo se fusiona con una roca angular
-- Cap del hongo con líneas concéntricas (anillos de tronco)
-- "STONE FUNGUS" debajo en serif moderna, cálida
-- Composición vertical: isotipo arriba, texto abajo
-
-**Tipografía:**
-- Serif con curvas cálidas, orgánica pero contemporánea (estilo Recoleta / Freight Display)
-- Mixed-case: "Stone Fungus" (no all-caps)
-- Kerning generoso, respira entre letras
-- La "g" de Fungus tiene un descender exagerado como una raíz
-
-**Mascota:**
-- Hongo con sombrero tipo gorra/cap grande, expresión de "sabio del bosque"
-- Trazo suelto como carboncillo/tinta
-- Sentado en piedra musgosa, piernas cruzadas, sostiene un slice como libro
-- Estilo: ilustración de libro infantil nórdico
-
-**Caja de pizza (vista cenital):**
-- Color base verde bosque (#1B3A2D)
-- Tipografía en crema (#F5E6D0)
-- Logo centrado con marco de líneas finas que sugieren ramas/raíces
-- Lateral: "Temuco, Chile · Pizza de hongos de autor"
-
----
-
-### ENFOQUE 3: "Pop Fungi"
-**Filosofía:** El hongo como ícono pop. Irreverente, colorido, anti-gourmet en apariencia.
-
-**Paleta:**
-- Naranja: `#FF6B35`
-- Violeta oscuro: `#2D1B69`
-- Blanco: `#FFFFFF`
-- Verde bosque acento: `#2D5A3D`
-
-**Logo:**
-- La mascota ES el logo: hongo con expresión picante dentro de un círculo
-- "STONE FUNGUS" curvado alrededor en tipografía informal
-- Versión simplificada: "SF" con cap de hongo en la "F"
-
-**Tipografía:**
-- Sans-serif geométrica con personalidad (estilo Clash Display)
-- Bold, lowercase ("stone fungus")
-- Corners ligeramente redondeados, amigable
-- Alternativa: lettering custom con letras deformadas/apretadas
-
-**Mascota:**
-- Hongo con actitud: gafas de sol y/o guantes de boxeo
-- Cartoon fat-line, colores planos, sin degradados
-- "Hongo rudo con corazón de oro"
-- Múltiples poses: caminando, cocinando, comiendo, durmiendo en piedra
-- Funciona como sticker
-
-**Caja de pizza (vista cenital):**
-- Fondo naranja (#FF6B35)
-- Mascota grande en la tapa con un quote diferente por pizza
-- Lateral: patrón de hongos pequeños estilizados repetidos
-- Tipografía violeta oscuro (#2D1B69) sobre naranja
-
----
-
-### ENFOQUE 4: "Piedra & Tinta"
+### ENFOQUE 2: "Piedra & Tinta"
 **Filosofía:** Evolución del logo actual. Honrar el ADN existente, modernizar.
 
 **Paleta:**
@@ -274,76 +220,7 @@ Cada enfoque define 4 elementos a generar:
 
 ---
 
-### ENFOQUE 5: "Neón Subterráneo"
-**Filosofía:** Hongos bioluminiscentes. Oscuridad + destellos de luz eléctrica.
-
-**Paleta:**
-- Negro profundo: `#050505`
-- Verde bioluminiscente: `#39FF7A`
-- Azul eléctrico: `#00D4FF`
-- Blanco luna: `#E8E8E8`
-
-**Logo:**
-- Silueta de hongo en outline fino luminoso (efecto neón)
-- "STONE FUNGUS" en sans light/thin
-- Funciona sobre fondos oscuros (invierte lógica tradicional)
-- El outline tiene un "glow" sutil (filtro SVG gaussianBlur)
-
-**Tipografía:**
-- Sans-serif limpia, moderna, pesos light a medium (estilo Satoshi / Inter)
-- Lowercase, tracking amplio — etérea, susurrada
-- El color luminoso compensa el peso ligero
-- Subtítulo "Temuco" en color secundario apagado
-
-**Mascota:**
-- Hongo bioluminiscente: cuerpo oscuro, bordes que "brillan"
-- Línea fina luminosa sobre fondo negro
-- Expresión serena, contemplativa — spirit del bosque
-- Puede aparecer como constelación de puntos luminosos
-
-**Caja de pizza (vista cenital):**
-- Negro mate total (#050505)
-- Logo y tipografía en verde bioluminiscente (#39FF7A) con efecto glow
-- Composición minimalista: mucho espacio negro vacío
-- Lateral: nombre de la pizza en azul eléctrico (#00D4FF)
-
----
-
-### ENFOQUE 6: "Hacha & Masa"
-**Filosofía:** Rústico-industrial. La piedra como material bruto. Tallado a mano.
-
-**Paleta:**
-- Carbón: `#2C2C2C`
-- Piedra: `#9B8B7A`
-- Kraft: `#BFA67A`
-- Rojo horno: `#8B2500`
-
-**Logo:**
-- "SF" monograma con letras cinceladas/facetadas (bordes irregulares)
-- Un hongo pequeño crece desde una grieta entre S y F
-- Sin contenedor — las letras son el objeto
-- Textura en los bordes simula piedra tallada
-
-**Tipografía:**
-- Condensada bold industrial (estilo Tusker Grotesk / Dharma Gothic)
-- ALL-CAPS, impacto directo, sin adornos
-- Subtítulo "PIZZA · HONGOS · HORNO DE PIEDRA" en versalitas con middots
-
-**Mascota:**
-- Hongo con cuerpo de piedra angular/geométrica (golem pequeño)
-- Estilo brutalista: formas rectas, ángulos de 45°, sin curvas
-- Lleva delantal de cuero y rodillo — artesano rudo
-- Colores: solo carbón + piedra (2 tonos)
-
-**Caja de pizza (vista cenital):**
-- Kraft grueso (#BFA67A)
-- Impresión en 1 tinta (#2C2C2C)
-- Monograma "SF" tipo sello de hierro ocupa 60% de la tapa
-- Cierre con sticker circular con el hongo
-
----
-
-### ENFOQUE 7: "Fungi Minimal"
+### ENFOQUE 3: "Fungi Minimal"
 **Filosofía:** Reducción extrema. 1 color + 1 símbolo. Inspirado en Pizzeta.
 
 **Paleta:**
@@ -376,42 +253,7 @@ Cada enfoque define 4 elementos a generar:
 
 ---
 
-### ENFOQUE 8: "Street Fungi"
-**Filosofía:** Pizza como cultura callejera. Streetwear + gastronomía.
-
-**Paleta:**
-- Blanco: `#FFFFFF`
-- Verde tinta: `#1A472A`
-- Negro: `#111111`
-- Acento amarillo: `#FFD43B`
-
-**Logo:**
-- Lettering custom a mano: "Stone Fungus" con marcador/pincel grueso
-- Imperfecciones intencionales: trazos irregulares, energía de tag controlado
-- Sticker circular alternativo con mascota
-- "SF" como tag rápido para marca de agua
-
-**Tipografía:**
-- Hand-lettered custom, NO una fuente sino lettering único
-- Cada letra tiene personalidad: S serpentina, F con cap de hongo
-- Fallback digital: sans-serif bold condensada
-- Energía de rotulación de almacenes chilenos
-
-**Mascota:**
-- Hongo skater/streetwear: gorra vuelta, zapatillas, actitud relajada
-- Estilo sticker (borde blanco grueso alrededor)
-- Poses: comiendo pizza con las manos, andando en skate sobre piedra
-- Diseñado para funcionar como sticker real
-
-**Caja de pizza (vista cenital):**
-- Base blanca con ilustraciones en verde tinta (#1A472A)
-- Lettering gigante + mascota como sticker estampado
-- Lateral: "PIZZA PIZZA PIZZA" alternado con "FUNGI FUNGI FUNGI"
-- Copy: "Masa madre lenta. Hongos del sur."
-
----
-
-### ENFOQUE 9: "Alquimia"
+### ENFOQUE 4: "Alquimia"
 **Filosofía:** El hongo como elemento mágico/alquímico. Boticario + ciencia.
 
 **Paleta:**
@@ -447,41 +289,6 @@ Cada enfoque define 4 elementos a generar:
 
 ---
 
-### ENFOQUE 10: "Dos Pesos"
-**Filosofía:** Dualidad STONE (duro, angular) + FUNGUS (orgánico, curvo). Dos personalidades.
-
-**Paleta:**
-- Gris piedra: `#6B6B6B`
-- Dorado orgánico: `#D4A843`
-- Negro: `#1A1A1A`
-- Blanco: `#F5F5F5`
-
-**Logo:**
-- "STONE" en tipografía angular, geométrica, tipo stencil militar
-- "FUNGUS" en tipografía orgánica, curva, con bordes que parecen crecer
-- Las dos se ensamblan como puzzle: STONE soporta, FUNGUS crece encima
-- Isotipo: cuadrado (piedra) del que emerge semicírculo (cap de hongo)
-
-**Tipografía:**
-- Dos fuentes coexistiendo:
-  - "STONE": ultra condensada angular industrial (estilo Tusker Grotesk)
-  - "FUNGUS": serif orgánica con curvas exageradas (estilo Fraunces / Gambetta)
-- El contraste tipográfico ES la identidad
-
-**Mascota:**
-- Hongo con mitad izquierda geométrica/angular y mitad derecha orgánica/suave
-- Split down the middle: un ojo cuadrado, un ojo redondo
-- Asimétrico pero armónico
-- Variaciones: a veces más "stone" (serio), a veces más "fungus" (juguetón)
-
-**Caja de pizza (vista cenital):**
-- Mitad izquierda: gris piedra (#6B6B6B) con tipografía angular
-- Mitad derecha: dorado (#D4A843) con tipografía curva
-- División orgánica (como hongo creciendo sobre piedra)
-- Lateral: "STONE" repetido en un lado, "FUNGUS" en el otro
-
----
-
 ## PARTE 4: INSTRUCCIONES TÉCNICAS DE GENERACIÓN
 
 ### Estructura de archivos a crear
@@ -489,97 +296,63 @@ Cada enfoque define 4 elementos a generar:
 ```
 branding/
   README.md
+  _references/
+    1.jpeg ... 9.jpeg
   _shared/
     preview.html
     styles.css
   approach-01-monolito-bold/
-    logo.svg
-    typography.svg
-    mascot.svg
-    pizza-box.svg
+    logo.png
+    typography.png
+    mascot.png
+    pizza-box.png
     preview.html
-  approach-02-bosque-nocturno/
-    logo.svg
-    typography.svg
-    mascot.svg
-    pizza-box.svg
+  approach-02-piedra-tinta/
+    logo.png
+    typography.png
+    mascot.png
+    pizza-box.png
     preview.html
-  approach-03-pop-fungi/
-    logo.svg
-    typography.svg
-    mascot.svg
-    pizza-box.svg
+  approach-03-fungi-minimal/
+    logo.png
+    typography.png
+    mascot.png
+    pizza-box.png
     preview.html
-  approach-04-piedra-tinta/
-    logo.svg
-    typography.svg
-    mascot.svg
-    pizza-box.svg
-    preview.html
-  approach-05-neon-subterraneo/
-    logo.svg
-    typography.svg
-    mascot.svg
-    pizza-box.svg
-    preview.html
-  approach-06-hacha-masa/
-    logo.svg
-    typography.svg
-    mascot.svg
-    pizza-box.svg
-    preview.html
-  approach-07-fungi-minimal/
-    logo.svg
-    typography.svg
-    mascot.svg
-    pizza-box.svg
-    preview.html
-  approach-08-street-fungi/
-    logo.svg
-    typography.svg
-    mascot.svg
-    pizza-box.svg
-    preview.html
-  approach-09-alquimia/
-    logo.svg
-    typography.svg
-    mascot.svg
-    pizza-box.svg
-    preview.html
-  approach-10-dos-pesos/
-    logo.svg
-    typography.svg
-    mascot.svg
-    pizza-box.svg
+  approach-04-alquimia/
+    logo.png
+    typography.png
+    mascot.png
+    pizza-box.png
     preview.html
 ```
 
-### Reglas para los SVG
+### Reglas para los PNG
 
-1. **Tamaño:** Cada SVG debe tener `viewBox="0 0 800 800"` (cuadrado) excepto pizza-box que usa `viewBox="0 0 1000 1000"`
+1. **Tamaño:** Cada PNG debe ser de **1024×1024px** (cuadrado) excepto pizza-box que usa **1200×1200px**
 2. **Colores:** Usar EXACTAMENTE los hex definidos en cada enfoque
-3. **Tipografía en SVG:** Usar `<text>` con Google Fonts via `@import` en un `<style>` dentro del SVG, o bien crear los textos como `<path>` cuando se necesite tipografía custom
-4. **Fondos:** Incluir un `<rect>` de fondo con el color apropiado
-5. **Complejidad de mascota:** Construir con formas geométricas básicas (`<circle>`, `<ellipse>`, `<rect>`, `<polygon>`, `<path>`). Nivel de detalle: esquemático/geométrico, NO fotorrealista
-6. **Logo:** Debe funcionar a 64x64px (verificar legibilidad)
+3. **Tipografía:** Usar las fuentes sugeridas en la tabla de Google Fonts. Renderizar el texto como parte de la imagen
+4. **Fondos:** Incluir fondo sólido con el color apropiado (no transparente, salvo que se indique)
+5. **Complejidad de mascota:** Estilo pictóric pop art — formas orgánicas simplificadas, colores planos, trazo expresivo. NO fotorrealista
+6. **Logo:** Debe funcionar a 64×64px (verificar legibilidad al reducir)
 7. **Pizza-box:** Vista cenital (top-down) de la tapa cerrada, mostrando layout del diseño
-8. **Sin imágenes externas:** Todo debe ser SVG puro, sin `<image>`, sin raster
-9. **SVG válido:** Cada archivo debe ser XML válido, abrible en cualquier browser
-10. **Cada SVG debe ser autocontenido:** No depender de archivos CSS externos
+8. **Calidad:** PNG-24 con buena compresión. Sin artefactos visibles
+9. **Estilo consistente:** Todas las imágenes de un mismo enfoque deben compartir el mismo lenguaje visual
+10. **Formato:** Cada archivo debe ser un PNG válido, visualizable en cualquier browser
 
 ### Reglas para preview.html (por enfoque)
 
 Cada `approach-XX/preview.html` debe:
-- Mostrar los 4 SVGs en una grilla de 2×2
+- Mostrar los 4 PNGs en una grilla de 2×2
 - Título con el nombre y número del enfoque
 - Fondo oscuro (#111) o claro (#f5f5f5) según la paleta del enfoque
-- Etiquetas debajo de cada SVG: "Logo", "Tipografía", "Mascota", "Caja de Pizza"
+- Etiquetas debajo de cada PNG: "Logo", "Tipografía", "Mascota", "Caja de Pizza"
 - Ser un HTML autocontenido con estilos inline o `<style>` interno
-- Los SVGs se incrustan via `<img src="logo.svg">` (rutas relativas)
+- Los PNGs se incrustan via `<img src="logo.png">` (rutas relativas)
 
 ### Reglas para el preview.html general (_shared/preview.html)
 
-- Galería que carga los 10 enfoques
+- Galería que carga los 4 enfoques
 - Navegación con tabs o scroll vertical
 - Para cada enfoque: título + descripción de 1 línea + los 4 thumbnails
 - Links a cada `approach-XX/preview.html` individual
@@ -592,33 +365,27 @@ Cada `approach-XX/preview.html` debe:
 - Tabla resumen con: número, nombre, tono, paleta (hex), target
 - Instrucciones para ver los previews (abrir preview.html en browser)
 
-### Fuentes Google Fonts sugeridas (usar via @import en SVGs)
+### Fuentes Google Fonts sugeridas
 
 | Enfoque | Fuente principal sugerida | Fallback |
 |---------|--------------------------|----------|
 | 1 - Monolito Bold | `Bebas Neue` o `Oswald` weight 700 | Impact, sans-serif |
-| 2 - Bosque Nocturno | `Cormorant Garamond` weight 500 | Georgia, serif |
-| 3 - Pop Fungi | `Fredoka` o `Nunito` weight 700 | Arial Rounded, sans-serif |
-| 4 - Piedra & Tinta | `Space Grotesk` weight 500 | Helvetica, sans-serif |
-| 5 - Neón Subterráneo | `Inter` weight 300 | Helvetica Neue, sans-serif |
-| 6 - Hacha & Masa | `Oswald` weight 700 | Impact, sans-serif |
-| 7 - Fungi Minimal | `DM Sans` weight 400 | Helvetica, sans-serif |
-| 8 - Street Fungi | `Permanent Marker` o `Bebas Neue` | Brush Script, cursive |
-| 9 - Alquimia | `Cormorant Garamond` weight 400 | Times New Roman, serif |
-| 10 - Dos Pesos | `Oswald` (STONE) + `Playfair Display` (FUNGUS) | mixed |
+| 2 - Piedra & Tinta | `Space Grotesk` weight 500 | Helvetica, sans-serif |
+| 3 - Fungi Minimal | `DM Sans` weight 400 | Helvetica, sans-serif |
+| 4 - Alquimia | `Cormorant Garamond` weight 400 | Times New Roman, serif |
 
 ### Orden de implementación sugerido
 
-Generar enfoque por enfoque, en orden del 1 al 10. Para cada enfoque:
+Generar enfoque por enfoque, en orden del 1 al 4. Para cada enfoque:
 1. Crear la carpeta `approach-XX-nombre/`
-2. Generar `logo.svg`
-3. Generar `typography.svg`
-4. Generar `mascot.svg`
-5. Generar `pizza-box.svg`
+2. Generar `logo.png`
+3. Generar `typography.png`
+4. Generar `mascot.png`
+5. Generar `pizza-box.png`
 6. Generar `preview.html`
-7. Verificar que los 4 SVGs rendericen correctamente
+7. Verificar que los 4 PNGs se visualicen correctamente
 
-Al terminar los 10:
+Al terminar los 4:
 8. Crear `_shared/preview.html`
 9. Crear `_shared/styles.css`
 10. Crear `README.md`
@@ -630,12 +397,6 @@ Al terminar los 10:
 | # | Enfoque | Tono | Target |
 |---|---------|------|--------|
 | 1 | Monolito Bold | Premium-minimal | Millennials urbanos |
-| 2 | Bosque Nocturno | Terroir-gourmet | Foodies, turistas |
-| 3 | Pop Fungi | Irreverente-fun | Gen Z, redes sociales |
-| 4 | Piedra & Tinta | Artesanal-evolucionado | Clientes actuales |
-| 5 | Neón Subterráneo | Misterioso-nocturno | Nightlife, experiencias |
-| 6 | Hacha & Masa | Rústico-industrial | Público craft |
-| 7 | Fungi Minimal | Ultra-limpio | Diseño-conscientes |
-| 8 | Street Fungi | Callejero-cool | Cultura urbana joven |
-| 9 | Alquimia | Sofisticado-místico | Premium, coleccionistas |
-| 10 | Dos Pesos | Conceptual-dual | Todos (versatilidad) |
+| 2 | Piedra & Tinta | Artesanal-evolucionado | Clientes actuales |
+| 3 | Fungi Minimal | Ultra-limpio | Diseño-conscientes |
+| 4 | Alquimia | Sofisticado-místico | Premium, coleccionistas |
